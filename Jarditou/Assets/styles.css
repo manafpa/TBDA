@@ -1,0 +1,43 @@
+.entete {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 15%;
+}
+
+.titre {
+  flex: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.menu {
+   border: 30px;
+   list-style-type: none;
+   border-radius: 2px;
+   display:flex;
+   flex-direction: row;
+}
+
+.promotion{
+  width: 100%;
+}
+
+.global{
+  display: flex;
+}
+
+.texte {
+  flex: 70%;
+}
+
+.colonne {
+  flex: 30%;
+  background-color: grey;
+}
+
+.menu a {
+  color:white;
+}
