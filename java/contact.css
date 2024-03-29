@@ -1,0 +1,21 @@
+span {
+    color: red;
+}
+
+p{
+    color:brown
+
+
+
+}
+
+textarea{
+    width: 50vw;
+    height:5vw ;
+    margin-bottom: 2vh;
+    margin-left: auto;
+    border: 1px inset;
+    background-color: white;
+    
+
+}

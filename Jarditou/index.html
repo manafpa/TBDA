@@ -3,14 +3,96 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,shrink-to-fit=no">
     <title>Jarditou</title>
     <link rel="stylesheet" href="Assets/styles.css">
-
+    
 
 </head>
 
 <body>
+
+    Bonjour 
+    <script>
+        alert("mon premier script en javascript !")
+        var num = 1;
+        var prenom = "Jean"
+        alert (num);
+        alert (prenom); 
+        const age=37;
+        alert(age);
+       var myVar;   //le type de la variable myVar est undefined 
+       myVar = 324; //type number
+       myVar = "Bonjour"; //type string
+       myVar = "true"; //type boolean
+       myVar = new Array(); //type object 
+       console.log(typeof 42);  //Affiche "number"
+       console.log(typeof 'blubber'); //Affiche "string"
+       console.log(typeof true); //Affiche "boolean"
+       var myVar;
+       console.log(typeof myVar); //Affiche 'undefined'
+       var nom
+       nom = prompt("Saisissez votre nom")
+        alert (nom)
+        var prenom
+        prenom = prompt("Saisissez votre prenom")
+        alert (prenom)
+        var a,b,c 
+        a= prompt ("Saisissez un nombre" )
+        b= prompt ("Saisissez autre nombre")
+        c=+a+ +b
+        alert(c)
+        var f,C
+        C=prompt ("Saisir température")
+        f = (C*9/5) + 32
+        alert(f)
+        
+
+        var a,b,c,d
+        a="100"
+        alert("ceci est une chaine de caractère "+a)
+        b=100
+        a=b--
+        alert (b)
+        c=1.00
+        c=+c + +a
+        alert (c)
+        d=true
+        alert(!d)
+
+
+        var C,D
+
+    C = prompt ("saisissez un chiffre")
+    D=C%2
+    if (C==0)
+    {
+        alert (D + "Nombre Pair")
+
+
+    }
+
+    else
+    {
+        alert (D + "Nombre Impair")
+    
+    }
+
+
+
+
+
+       
+       
+       
+       
+       
+       
+       
+       </script>
+
+
+
     <header>
         <div class="entete">
             <img class="logo" src="Assets/image/jarditou_logo.jpg" alt="jarditou_logo">
@@ -59,10 +141,10 @@
         </div>
     </div>
     <footer>
-        <ul class="menu" type="disc">
+        <ul class="menu">
             <li><a href="#">Mention légales&nbsp;</a></li>
             <li><a href="#">Horaires&nbsp;</a></li>
-            <li><a href="#">Plan du site</a>Plan du site</li>
+            <li><a href="#">Plan du site</a>
         </ul>
     </footer>
 
