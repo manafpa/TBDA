@@ -5,37 +5,36 @@ function patrick (){
 }
 */
 
-//Ex 2
+/*Ex 2
 
-/***********************************************************************************************************/
+
 
 //déterminer un nombre aléatoire nommé "nombre magique"
 
 
 //verifié si le nombre saisie correspond au nombre magique
 
-//verif(saisie, nombremagique)
+verif(saisie, nombremagique)
 
 
-
-// function verif(nb1, nb2){
+ function verif(nb1, nb2){
     
     
     
     
     
     
-    //si le nombre est trop petit alors on affiche  trop petit
+    si le nombre est trop petit alors on affiche  trop petit
     
     
     
-    //si le nombre est trop grand alors on affiche trop grand
+    si le nombre est trop grand alors on affiche trop grand
     
     
     
-    //si le nombre est égal au nombre magique alors c'est gagné 
-    //else if (saisie==nombremagique)
-    //alert ("alors c'est gagné")
+    si le nombre est égal au nombre magique alors c'est gagné 
+    else if (saisie==nombremagique)
+    alert ("alors c'est gagné")
 
 /***********************************************************************************************************/
 
